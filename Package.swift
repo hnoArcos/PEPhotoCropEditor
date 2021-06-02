@@ -22,8 +22,8 @@ let package = Package(
         .target(
             name: "PEPhotoCropEditor",
             dependencies: []),
-        .testTarget(
-            name: "PEPhotoCropEditorTests",
-            dependencies: ["PEPhotoCropEditor"]),
+//        .testTarget(
+//            name: "PEPhotoCropEditorTests",
+//            dependencies: ["PEPhotoCropEditor"]),
     ]
 )
