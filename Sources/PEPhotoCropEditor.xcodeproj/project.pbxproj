@@ -84,7 +84,7 @@
 		14BB4E7D174BC39000C75F78 = {
 			isa = PBXGroup;
 			children = (
-				3AEF209A2667D8E400E691B5 /* Source */,
+				3AEF209A2667D8E400E691B5 /* Sources */,
 				14BB4E88174BC39000C75F78 /* Frameworks */,
 				14BB4E87174BC39000C75F78 /* Products */,
 			);
@@ -183,12 +183,12 @@
 			name = Sources;
 			sourceTree = "<group>";
 		};
-		3AEF209A2667D8E400E691B5 /* Source */ = {
+		3AEF209A2667D8E400E691B5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				14BB4E8F174BC39000C75F78 /* PEPhotoCropEditorPackage */,
 			);
-			name = Source;
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
