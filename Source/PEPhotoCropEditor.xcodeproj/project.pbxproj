@@ -189,7 +189,6 @@
 				14BB4E8F174BC39000C75F78 /* PEPhotoCropEditorPackage */,
 			);
 			name = Source;
-			path = PEPhotoCropEditorPackage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
