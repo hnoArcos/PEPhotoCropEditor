@@ -84,7 +84,7 @@
 		14BB4E7D174BC39000C75F78 = {
 			isa = PBXGroup;
 			children = (
-				14BB4E8F174BC39000C75F78 /* PEPhotoCropEditor */,
+				3AEF209A2667D8E400E691B5 /* Source */,
 				14BB4E88174BC39000C75F78 /* Frameworks */,
 				14BB4E87174BC39000C75F78 /* Products */,
 			);
@@ -111,14 +111,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		14BB4E8F174BC39000C75F78 /* PEPhotoCropEditor */ = {
+		14BB4E8F174BC39000C75F78 /* PEPhotoCropEditorPackage */ = {
 			isa = PBXGroup;
 			children = (
+				14707AE6175B99D800A58D40 /* PEPhotoCropEditor.bundle */,
+				14BB4F0A174BD7B100C75F78 /* PECropViewController.h */,
+				14BB4F0B174BD7B100C75F78 /* PECropViewController.m */,
+				14BB4F07174BD79E00C75F78 /* PECropView.h */,
+				14BB4F08174BD79E00C75F78 /* PECropView.m */,
+				14BB4F0D174BD7CA00C75F78 /* PECropRectView.h */,
+				14BB4F0E174BD7CA00C75F78 /* PECropRectView.m */,
+				14BB4F0F174BD7CB00C75F78 /* PEResizeControl.h */,
+				14BB4F10174BD7CB00C75F78 /* PEResizeControl.m */,
+				E576407517A7889200111967 /* UIImage+PECrop.h */,
+				E576407417A7889200111967 /* UIImage+PECrop.m */,
 				14BB4EC5174BC52800C75F78 /* DemoApp */,
 				14BB4EB4174BC45A00C75F78 /* Lib */,
 				14BB4E90174BC39000C75F78 /* Supporting Files */,
 			);
-			path = PEPhotoCropEditor;
+			name = PEPhotoCropEditorPackage;
 			sourceTree = "<group>";
 		};
 		14BB4E90174BC39000C75F78 /* Supporting Files */ = {
@@ -139,7 +150,6 @@
 		14BB4EAF174BC3DD00C75F78 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				14707AE6175B99D800A58D40 /* PEPhotoCropEditor.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -169,18 +179,17 @@
 		14BB4F06174BD79000C75F78 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				14BB4F0A174BD7B100C75F78 /* PECropViewController.h */,
-				14BB4F0B174BD7B100C75F78 /* PECropViewController.m */,
-				14BB4F07174BD79E00C75F78 /* PECropView.h */,
-				14BB4F08174BD79E00C75F78 /* PECropView.m */,
-				14BB4F0D174BD7CA00C75F78 /* PECropRectView.h */,
-				14BB4F0E174BD7CA00C75F78 /* PECropRectView.m */,
-				14BB4F0F174BD7CB00C75F78 /* PEResizeControl.h */,
-				14BB4F10174BD7CB00C75F78 /* PEResizeControl.m */,
-				E576407517A7889200111967 /* UIImage+PECrop.h */,
-				E576407417A7889200111967 /* UIImage+PECrop.m */,
 			);
 			name = Sources;
+			sourceTree = "<group>";
+		};
+		3AEF209A2667D8E400E691B5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				14BB4E8F174BC39000C75F78 /* PEPhotoCropEditorPackage */,
+			);
+			name = Source;
+			path = PEPhotoCropEditorPackage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				ja,
 			);
@@ -368,6 +378,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoApp/PEPhotoCropEditor-Prefix.pch";
 				INFOPLIST_FILE = "DemoApp/PEPhotoCropEditor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -379,6 +390,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoApp/PEPhotoCropEditor-Prefix.pch";
 				INFOPLIST_FILE = "DemoApp/PEPhotoCropEditor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
