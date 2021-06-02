@@ -48,8 +48,6 @@
     <key>CFBundleLocalizations</key>
     <array>
         <string>en</string>
-        <string>es</string>
-        <string>uk-UA</string>
     </array>
 </dict>
 </plist>
