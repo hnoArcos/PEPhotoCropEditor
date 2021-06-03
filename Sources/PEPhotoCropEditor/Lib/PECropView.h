@@ -6,12 +6,11 @@
 //  Copyright (c) 2013 kishikawa katsumi. All rights reserved.
 //
 
-#if __has_include(<UIKit/UIKit.h>)
-#import <UIKit/UIKit.h>
-#endif
-
 #import <QuartzCore/QuartzCore.h>
 #import <AVFoundation/AVFoundation.h>
+#if TARGET_OS_IPHONE
+    #import <UIKit/UIKit.h>
+#endif
 
 @interface PECropView : UIView
 
@@ -37,3 +36,4 @@
 - (void)setRotationAngle:(CGFloat)rotationAngle snap:(BOOL)snap;
 
 @end
+

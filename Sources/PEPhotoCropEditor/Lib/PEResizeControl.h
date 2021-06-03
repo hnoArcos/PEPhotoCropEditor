@@ -6,11 +6,11 @@
 //  Copyright (c) 2013 kishikawa katsumi. All rights reserved.
 //
 
-#if __has_include(<UIKit/UIKit.h>)
+#import <QuartzCore/QuartzCore.h>
+
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
 #endif
-
-#import <QuartzCore/QuartzCore.h>
 
 @protocol PEResizeControlViewDelegate;
 
@@ -28,3 +28,4 @@
 - (void)resizeControlViewDidEndResizing:(PEResizeControl *)resizeControlView;
 
 @end
+

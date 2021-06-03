@@ -5,8 +5,7 @@
 //  Created by kishikawa katsumi on 2013/05/21.
 //  Copyright (c) 2013 kishikawa katsumi. All rights reserved.
 //
-
-#if __has_include(<UIKit/UIKit.h>)
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
 #endif
 
@@ -29,4 +28,5 @@
 - (void)cropRectViewDidEndEditing:(PECropRectView *)cropRectView;
 
 @end
+
 

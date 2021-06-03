@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 kishikawa katsumi. All rights reserved.
 //
 
-#if __has_include(<UIKit/UIKit.h>)
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
 #endif
 
@@ -16,3 +16,4 @@
                          croppedToRect:(CGRect)rect;
 
 @end
+
