@@ -6,7 +6,10 @@
 //  Copyright (c) 2013 kishikawa katsumi. All rights reserved.
 //
 
+#if __has_include(<UIKit/UIKit.h>)
 #import <UIKit/UIKit.h>
+#endif
+
 #import <QuartzCore/QuartzCore.h>
 #import <AVFoundation/AVFoundation.h>
 

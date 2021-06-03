@@ -1,0 +1,58 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor_PEPhotoCropEditor.bundle/en.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/PEPhotoCropEditor/en.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor_PEPhotoCropEditor.bundle/en.lproj/Localizable.strings"
+        }
+      ]
+    },
+    "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor_PEPhotoCropEditor.bundle/Info.plist" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/Info.plist"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor_PEPhotoCropEditor.bundle/Info.plist"
+        }
+      ]
+    },
+    "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor_PEPhotoCropEditor.bundle/ja.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/PEPhotoCropEditor/ja.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor_PEPhotoCropEditor.bundle/ja.lproj/Localizable.strings"
+        }
+      ]
+    }
+  },
+  "swiftCommands" : {
+
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

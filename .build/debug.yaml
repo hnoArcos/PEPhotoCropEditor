@@ -1,0 +1,96 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "PEPhotoCropEditor-debug.module": ["<PEPhotoCropEditor-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<PEPhotoCropEditor-debug.module>"]
+  "test": ["<PEPhotoCropEditor-debug.module>"]
+default: "main"
+nodes:
+  "/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/":
+    is-directory-structure: true
+commands:
+  "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropRectView.m.o":
+    tool: clang
+    inputs: ["<PEPhotoCropEditor-debug.module-resources>","/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/PEPhotoCropEditor/Lib/PECropRectView.m"]
+    outputs: ["/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropRectView.m.o"]
+    description: "Compiling PEPhotoCropEditor PEPhotoCropEditor/Lib/PECropRectView.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=PEPhotoCropEditor","-I","/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/include","-fmodules-cache-path=/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropRectView.m.d","-c","/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/PEPhotoCropEditor/Lib/PECropRectView.m","-o","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropRectView.m.o"]
+    deps: "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropRectView.m.d"
+
+  "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropView.m.o":
+    tool: clang
+    inputs: ["<PEPhotoCropEditor-debug.module-resources>","/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/PEPhotoCropEditor/Lib/PECropView.m"]
+    outputs: ["/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropView.m.o"]
+    description: "Compiling PEPhotoCropEditor PEPhotoCropEditor/Lib/PECropView.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=PEPhotoCropEditor","-I","/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/include","-fmodules-cache-path=/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropView.m.d","-c","/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/PEPhotoCropEditor/Lib/PECropView.m","-o","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropView.m.o"]
+    deps: "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropView.m.d"
+
+  "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropViewController.m.o":
+    tool: clang
+    inputs: ["<PEPhotoCropEditor-debug.module-resources>","/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/PEPhotoCropEditor/Lib/PECropViewController.m"]
+    outputs: ["/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropViewController.m.o"]
+    description: "Compiling PEPhotoCropEditor PEPhotoCropEditor/Lib/PECropViewController.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=PEPhotoCropEditor","-I","/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/include","-fmodules-cache-path=/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropViewController.m.d","-c","/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/PEPhotoCropEditor/Lib/PECropViewController.m","-o","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropViewController.m.o"]
+    deps: "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropViewController.m.d"
+
+  "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PEResizeControl.m.o":
+    tool: clang
+    inputs: ["<PEPhotoCropEditor-debug.module-resources>","/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/PEPhotoCropEditor/Lib/PEResizeControl.m"]
+    outputs: ["/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PEResizeControl.m.o"]
+    description: "Compiling PEPhotoCropEditor PEPhotoCropEditor/Lib/PEResizeControl.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=PEPhotoCropEditor","-I","/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/include","-fmodules-cache-path=/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PEResizeControl.m.d","-c","/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/PEPhotoCropEditor/Lib/PEResizeControl.m","-o","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PEResizeControl.m.o"]
+    deps: "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PEResizeControl.m.d"
+
+  "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/UIImage+PECrop.m.o":
+    tool: clang
+    inputs: ["<PEPhotoCropEditor-debug.module-resources>","/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/PEPhotoCropEditor/Lib/UIImage+PECrop.m"]
+    outputs: ["/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/UIImage+PECrop.m.o"]
+    description: "Compiling PEPhotoCropEditor PEPhotoCropEditor/Lib/UIImage+PECrop.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=PEPhotoCropEditor","-I","/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/include","-fmodules-cache-path=/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/UIImage+PECrop.m.d","-c","/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/PEPhotoCropEditor/Lib/UIImage+PECrop.m","-o","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/UIImage+PECrop.m.o"]
+    deps: "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/UIImage+PECrop.m.d"
+
+  "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/resource_bundle_accessor.m.o":
+    tool: clang
+    inputs: ["<PEPhotoCropEditor-debug.module-resources>","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/DerivedSources/resource_bundle_accessor.m"]
+    outputs: ["/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/resource_bundle_accessor.m.o"]
+    description: "Compiling PEPhotoCropEditor resource_bundle_accessor.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=PEPhotoCropEditor","-I","/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/include","-fmodules-cache-path=/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/resource_bundle_accessor.m.d","-c","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/DerivedSources/resource_bundle_accessor.m","-o","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/resource_bundle_accessor.m.o"]
+    deps: "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/resource_bundle_accessor.m.d"
+
+  "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor_PEPhotoCropEditor.bundle/Info.plist":
+    tool: copy-tool
+    inputs: ["/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/Info.plist"]
+    outputs: ["/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor_PEPhotoCropEditor.bundle/Info.plist"]
+    description: "Copying /Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/Info.plist"
+
+  "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor_PEPhotoCropEditor.bundle/en.lproj/Localizable.strings":
+    tool: copy-tool
+    inputs: ["/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/PEPhotoCropEditor/en.lproj/Localizable.strings"]
+    outputs: ["/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor_PEPhotoCropEditor.bundle/en.lproj/Localizable.strings"]
+    description: "Copying /Users/arcos1/Desktop/PEPhotoCropEditor/Sources/PEPhotoCropEditor/en.lproj/Localizable.strings"
+
+  "/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor_PEPhotoCropEditor.bundle/ja.lproj/Localizable.strings":
+    tool: copy-tool
+    inputs: ["/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/PEPhotoCropEditor/ja.lproj/Localizable.strings"]
+    outputs: ["/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor_PEPhotoCropEditor.bundle/ja.lproj/Localizable.strings"]
+    description: "Copying /Users/arcos1/Desktop/PEPhotoCropEditor/Sources/PEPhotoCropEditor/ja.lproj/Localizable.strings"
+
+  "<PEPhotoCropEditor-debug.module>":
+    tool: phony
+    inputs: ["/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropRectView.m.o","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropView.m.o","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PECropViewController.m.o","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/PEResizeControl.m.o","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/PEPhotoCropEditor/Lib/UIImage+PECrop.m.o","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor.build/resource_bundle_accessor.m.o"]
+    outputs: ["<PEPhotoCropEditor-debug.module>"]
+
+  "PEPhotoCropEditor-debug.module-resources":
+    tool: phony
+    inputs: ["/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor_PEPhotoCropEditor.bundle/ja.lproj/Localizable.strings","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor_PEPhotoCropEditor.bundle/en.lproj/Localizable.strings","/Users/arcos1/Desktop/PEPhotoCropEditor/.build/x86_64-apple-macosx/debug/PEPhotoCropEditor_PEPhotoCropEditor.bundle/Info.plist"]
+    outputs: ["<PEPhotoCropEditor-debug.module-resources>"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/arcos1/Desktop/PEPhotoCropEditor/Sources/","/Users/arcos1/Desktop/PEPhotoCropEditor/Package.swift","/Users/arcos1/Desktop/PEPhotoCropEditor/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
